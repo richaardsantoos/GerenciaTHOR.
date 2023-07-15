@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gerenciador de tarefas</title>
+</head>
+
+<body>
+  <header class="cor">
+    <h1><a href="file:///C:/Users/user/Desktop/projetos/To-do-listh-with-HTML-CSS-JAVASCRIPT/page1.html">Gerencia<span>THOR</span></a></h1>
+    <nav>
+        <ul class="navegacao-primaria">
+            <li><a href="file:///C:/Users/user/Desktop/portifolio/index.htm">Portifolio</a></li>
+        </ul>
+    </nav>
+    <i class="fa-solid fa-bars"></i>
+</header>
+    <h1>Gerenciador De Tarefas</h1>
+    <div class="content">
+        <div class="contente--add--item">
+          <input type="text" id="input-new-task" placeholder="Digite uma nova Tarefa">
+          <button onclick="newTask()" id="btn-new-task" title="Click aqui para adicionar uma nova tarefa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
+          </button>
+        </div>
+       <div class="content--body">
+        <ol id="to-do-list">
+        </ol>
+       </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
